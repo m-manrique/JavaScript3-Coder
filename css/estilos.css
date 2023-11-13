@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+}
+.navbar .navbar-brand {
+  color: black !important;
+}
+.navbar .navbar-toggler {
+  border: 3px solid black !important;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+form {
+    border: black solid 1px;
+  }
+
+  form input , select {
+    border: 1px solid black !important;
+  }
+  
